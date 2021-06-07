@@ -114,3 +114,52 @@
 // logInfoAbout('Dima', 2030)
 
 // 9 МАССИВЫ
+
+// const cars = ['mazda', 'audi', 'ford']  // Это более правильный вариант создания массивов
+//  console.log(cars)
+// const cars = new Array('mazda', 'audi', 'ford')  // Это менее правильный вариант создания массивов
+// console.log(cars)
+// console.log(cars[1])
+// console.log(cars[2])
+// console.log(cars[3])
+// console.log(cars.length)
+// cars[0] = 'porsche'
+// console.log(cars)
+// cars[cars.length] = 'mazda' //Добавляет следующий элемент массива .length
+// console.log(cars)
+
+// 10 ЦИКЛЫ
+
+const cars = ['mazda', 'audi', 'ford', 'porche']
+// for (let i = 0; i < cars.length; i++) {
+//   const car = cars[i]
+//   console.log(car)
+// }
+// for (let car of cars) {   // более коротко и лаконично, чем то, что выше
+//   console.log(car)
+// }
+
+// 11 ОБЪЕКТЫ
+
+// const person = {
+//   firstName: 'Dima',
+//   lastName: 'Ivanov',
+//   year: 1987,
+//   languages: ['RU', 'EN', 'BLR'],
+//   hasWife: true,
+//   greet: function() {    // это метод, а не функция, потому что она определена в контексте создания объекта
+//     console.log('greet from person')
+//   }
+// }
+
+// console.log(person) // либо можно обратиться к чему-то другому
+// console.log(person.firstName)
+// console.log(person.hasWife)
+// person.greet() // либо можно обратиться по-другому
+// console.log(person['lastName'])  //через строчку
+// const key = 'languages'  //обращение к объекту через динамический ключ
+// console.log(person[key])
+// person.hasWife = false  //любые значения можно менять
+// console.log(person)
+// person.isProgrammer = true  //можно добавлять любые ключи
+// console.log(person)
