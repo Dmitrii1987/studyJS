@@ -130,7 +130,7 @@
 
 // 10 ЦИКЛЫ
 
-const cars = ['mazda', 'audi', 'ford', 'porche']
+//const cars = ['mazda', 'audi', 'ford', 'porche']
 // for (let i = 0; i < cars.length; i++) {
 //   const car = cars[i]
 //   console.log(car)
