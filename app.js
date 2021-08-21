@@ -1,4 +1,4 @@
-// NUMBER
+// 1 NUMBER
 
 // const num = 42 // integer
 // const float = 42.42 // float
@@ -18,7 +18,6 @@
 //isNaN()       // Number.isNan()   - это обьекты
 //isFinite()    // Number.isFinite()- это тоже обьект
 
-
 // const stringInt = '40'
 // const stringFloat = '40.42'
 // console.log(stringInt + 2)   // будет 402 это контакенация(сложение строк)
@@ -29,9 +28,18 @@
 // console.log(parseFloat(stringFloat) + 2) // будет 42.42 parseFloat делает дробное число из строки
 // console.log(+stringFloat + 2) // будет 42.42. "+" преобразует строку в число
 
-
 // console.log(0.4 + 0.2) // будет 0.6000000000000001
 // console.log((0.4 + 0.2).toFixed(1)) // будет строка "0.6"
 // console.log(+(0.4 + 0.2).toFixed(1)) // будет число 0.6 либо 
 // console.log(parseFloat((0.4 + 0.2).toFixed(1))) // будте тоже число 0.6
 
+
+// 2 BigInt
+//console.log(typeof 9007199254740991n)  // если к самому большому числу добавить n, то получится bigint
+// bigint работает только с bigintами
+//console.log(-9007199254740991n) // тоже bigint
+//console.log(10n - 4) // error. нельзя миксовать bigint и числа
+// там, где есть n, будет bigint
+//console.log(parseInt(10n) - 4) // будет 6
+//console.log(10n - BigInt(4)) // будет 6n (и это уже bigint)
+//console.log(5n / 2n) // будет 2n
