@@ -43,3 +43,18 @@
 //console.log(parseInt(10n) - 4) // будет 6
 //console.log(10n - BigInt(4)) // будет 6n (и это уже bigint)
 //console.log(5n / 2n) // будет 2n
+
+// 3 Math
+// Объект Math позволяет взаимодейстовать с различными математическими операциями в JS
+console.log(Math.E) //  2.718281828459045
+console.log(Math.PI) // 3.141592653589793
+console.log(Math.sqrt(25)) // квадратный корень из 25 будет 5
+console.log(Math.pow(5, 3)) // возведение в степень. 5 в третьей степени - 125
+console.log(Math.abs(-42)) // это модуль числа. Будет 42
+console.log(Math.max(42, 55, 100, 11, 9)) // 100 - максимальное число
+console.log(Math.min(33, 44, 67, 5)) // 5 - минимальное число
+console.log(Math.floor(4.9)) // 4 - округление в меньшую сторону
+console.log(Math.ceil(4.9)) // 5 - округление в большую сторону
+console.log(Math.round(4.9)) // 5 - возвращает число, округлённое к ближайшему целому
+console.log(Math.trunc(4.9)) // 4 - возвращает целую часть числа путём удаления всех дробных
+console.log(Math.random()) // всё время разные значения
