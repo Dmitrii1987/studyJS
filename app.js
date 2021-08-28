@@ -35,6 +35,7 @@
 
 
 // 2 BigInt
+
 //console.log(typeof 9007199254740991n)  // если к самому большому числу добавить n, то получится bigint
 // bigint работает только с bigintами
 //console.log(-9007199254740991n) // тоже bigint
@@ -45,16 +46,25 @@
 //console.log(5n / 2n) // будет 2n
 
 // 3 Math
+
 // Объект Math позволяет взаимодейстовать с различными математическими операциями в JS
-console.log(Math.E) //  2.718281828459045
-console.log(Math.PI) // 3.141592653589793
-console.log(Math.sqrt(25)) // квадратный корень из 25 будет 5
-console.log(Math.pow(5, 3)) // возведение в степень. 5 в третьей степени - 125
-console.log(Math.abs(-42)) // это модуль числа. Будет 42
-console.log(Math.max(42, 55, 100, 11, 9)) // 100 - максимальное число
-console.log(Math.min(33, 44, 67, 5)) // 5 - минимальное число
-console.log(Math.floor(4.9)) // 4 - округление в меньшую сторону
-console.log(Math.ceil(4.9)) // 5 - округление в большую сторону
-console.log(Math.round(4.9)) // 5 - возвращает число, округлённое к ближайшему целому
-console.log(Math.trunc(4.9)) // 4 - возвращает целую часть числа путём удаления всех дробных
-console.log(Math.random()) // всё время разные значения
+// console.log(Math.E) //  2.718281828459045
+// console.log(Math.PI) // 3.141592653589793
+// console.log(Math.sqrt(25)) // квадратный корень из 25 будет 5
+// console.log(Math.pow(5, 3)) // возведение в степень. 5 в третьей степени - 125
+// console.log(Math.abs(-42)) // это модуль числа. Будет 42
+// console.log(Math.max(42, 55, 100, 11, 9)) // 100 - максимальное число
+// console.log(Math.min(33, 44, 67, 5)) // 5 - минимальное число
+// console.log(Math.floor(4.9)) // 4 - округление в меньшую сторону
+// console.log(Math.ceil(4.9)) // 5 - округление в большую сторону
+// console.log(Math.round(4.9)) // 5 - возвращает число, округлённое к ближайшему целому
+// console.log(Math.trunc(4.9)) // 4 - возвращает целую часть числа путём удаления всех дробных
+// console.log(Math.random()) // всё время разные значения
+
+// Example
+
+// function getRandomBetween(min, max) {
+//     return Math.floor(Math.random() * (max - min + 1) + min)
+// }
+
+// console.log(getRandomBetween(10, 42)) // функция выводит случайное число между min и max и округляет в меньшую сторону
