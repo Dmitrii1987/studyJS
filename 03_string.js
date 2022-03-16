@@ -25,3 +25,13 @@
 // console.log(string) //     password    - пробелы сохраняются
 // console.log(string.trim()) // все пробелы очищаются. Есть trimLeft() и trimRight()
 
+
+// function logPerson(s, name, age) {
+//     console.log(s, name, age);
+//     return `${s[0]}${name}${s[1]}${age}${s[2]}`// выведет Name: Dima, Age: 34!
+// }
+
+// const personName = 'Dima'
+// const personAge = 34
+// const output = logPerson`Name: ${personName}, Age: ${personAge}!`
+// console.log(output);
