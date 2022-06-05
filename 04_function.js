@@ -75,4 +75,14 @@
 // console.log(res);  // будет 28
 
 
-// 5 
+// 5   Замыкания
+// function createMember(name) {
+//     return function(lastName) {
+//         console.log(name + lastName);
+//     }
+// }
+
+// const logWithLastName = createMember("Dima")
+// console.log(logWithLastName); // в консоли будет функция
+// console.log(logWithLastName()) // Dimaundefined
+// console.log(logWithLastName("Ivanov")) // DimaIvanov
